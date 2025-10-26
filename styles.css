@@ -1,0 +1,135 @@
+
+:root {
+  --bg1: #ffffff;
+  --bg2: #00aeff;
+  --glass-bg: rgba(255, 255, 255, 0.25);
+  --glass-border: rgba(0, 0, 0, 0.4);
+  --btn-color: #2563eb;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, var(--bg1), var(--bg2));
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+  color: var(--text-dark);
+}
+
+.کادربزرگ {
+  width: 100%;
+  max-width: 720px;
+  padding: 24px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: var(--text-light);
+  font-size: 1rem;
+  margin-bottom: 32px;
+}
+
+
+.اپلودکادر {
+  position: relative; 
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  padding: 40px 20px;
+  transition: all 0.3s ease;
+}
+
+.اپلودکادر:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.ایکون {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.اپلودکادر h2 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.اپلودکادر p {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.فایل {
+  background: var(--btn-color);
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.فایل:hover {
+  background: #1d4ed8;
+}
+
+.کادرپرایوت {
+  margin-top: 24px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  border: 1px dashed var(--glass-border);
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+.logo {
+    position: fixed; 
+    top: 10px;       
+    left: 10px;     
+    width: 100px;     
+    
+}
+.nav-icons {
+  position: fixed;      
+  top: 10px;            
+  left: 1750px;           
+  display: flex;
+  gap: 30px;            
+  z-index: 1000;        
+}
+.nav-icons img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;   
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nav-icons img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
