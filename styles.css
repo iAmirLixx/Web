@@ -111,6 +111,7 @@ footer {
     top: 10px;       
     left: 10px;     
     width: 100px;     
+    z-index: 1000;
     
 }
 .nav-icons {
@@ -134,3 +135,20 @@ object-fit: cover;
   transform: scale(1.1);
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+
+
+.meunobala {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  padding: 40px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
