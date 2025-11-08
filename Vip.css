@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  background: linear-gradient(135deg, #6a11cb, #ffee00);
+  background: linear-gradient(135deg, #6a11cb, #ffffff);
   font-family: "Vazir", sans-serif;
   color: #fff;
   display: flex;
@@ -17,17 +17,21 @@ body {
   box-shadow: 0 8px 25px rgba(0,0,0,0.3);
   text-align: right; 
 }
-
 .about h2 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 28px;
   color: #00c6ff;
 }
-
 .about p {
   margin: 10px 0;
   line-height: 1.6;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: var(--text-light);
 }
 
 .logo {
@@ -74,43 +78,43 @@ body {
   z-index: 1000;
 }
 
-/* 🎯 باکس حذف فایل */
-.delete-box {
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 16px;
-  padding: 20px;
+
+.vip-container {
   text-align: center;
   margin-top: 20px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
-.delete-box input {
-  width: 80%;
-  padding: 10px;
+.vip-select {
+  background: rgba(255, 255, 255, 0.2);
   border: none;
+  padding: 10px 20px;
   border-radius: 12px;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 15px;
   outline: none;
-  font-size: 16px;
-  text-align: left;
-  color: #333;
+  cursor: pointer;
+}
+.vip-select option {
+  color: #000;
 }
 
-.delete-box input::placeholder {
-  color: #666;
+.price-display {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #00ffcc;
 }
 
-.delete-box button {
-  background: #ff4d4d;
+.btn-confirm {
+  background: #00c6ff;
   border: none;
-  padding: 10px 25px;
-  border-radius: 12px;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 18px;
   color: white;
-  font-size: 16px;
-  margin-top: 15px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
-
-.delete-box button:hover {
-  background: #ff1a1a;
+.btn-confirm:hover {
+  background: #0077ff;
 }
