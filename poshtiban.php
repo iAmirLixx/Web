@@ -1,26 +1,18 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>پشتیبانی</title>
+  <title>darbarema</title>
   <link rel="stylesheet" href="poshtiban.css">
 </head>
 <body>
-  <div class="meunobala"></div>
 
-  <div class="nav-icons">
-    <a href="darbare.html">
-      <img src="soal.jpg" alt="سوالات">
-    </a>
-    <a href="login.html">
-      <img src="Karbar.jpeg" alt="ورود">
-    </a>
-    <a href="index.html">
-      <img src="Khone.png" alt="خانه">
-    </a>
-  </div>
 
+
+<?php include 'header-footer.html'; ?>
+
+<main>
   <section class="about">
     <h2>پشتیبانی آنلاین</h2>
     <p><strong>@AmirLixx</strong> : در حال توسعه توسط</p>
@@ -28,7 +20,7 @@
     <div class="chat-box">
       <div class="chat-header">گفتگو با پشتیبانی</div>
       <div class="chat-messages">
-        <div class="message support">سلا چطور می‌تونم کمکت کنم؟ </div>
+        <div class="message support">سلام! چطور می‌تونم کمکت کنم؟</div>
       </div>
       <div class="chat-input-area">
         <input type="text" placeholder="پیامت رو بنویس..." disabled>
@@ -36,7 +28,4 @@
       </div>
     </div>
   </section>
-
-  <img src="logo.png" alt="لوگو" class="logo">
-</body>
-</html>
+</main>

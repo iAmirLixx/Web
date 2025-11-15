@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>darbarema</title>
+  <link rel="stylesheet" href="darbare.css">
+</head>
+<body>
+<?php include 'header-footer.html'; ?>
+
+<main>
+  <section class="about">
+    <h2>درباره ما</h2>
+    <p><strong>@AmirLixx</strong> : طراح سایت</p>
+    <p><strong>تاریخ ساخت:</strong> 2025</p>
+    <p><strong>کاربرد سایت:</strong> این سایت یک پلتفرم ساده برای آپلود عکس است که به کاربران امکان می‌دهد تصاویر خود را به راحتی آپلود کرده و مدیریت کنند.</p>
+  </section>
+</main>
