@@ -1,4 +1,4 @@
-/* صفحه لاگین */
+
 .login-page {
   min-height: 100vh;
   display: flex;
@@ -8,7 +8,7 @@
   font-family: 'Vazirmatn', sans-serif;
 }
 
-/* کادر فرم */
+
 .login-page .container {
   width: 320px;
   padding: 40px;
@@ -19,7 +19,7 @@
   text-align: center;
 }
 
-/* ورودی ها (نام کاربری و رمز عبور) */
+
 .login-page input[type="text"],
 .login-page input[type="password"] {
   width: 100%;
@@ -35,7 +35,7 @@
   line-height: 1.4;
   box-sizing: border-box;
 
-  /* حذف استایل پیشفرض مرورگر */
+ 
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -52,7 +52,7 @@
   box-shadow: 0 6px 15px rgba(0,114,255,0.4);
 }
 
-/* دکمه‌ها */
+
 .login-page button {
   width: 100%;
   padding: 12px;
@@ -72,7 +72,7 @@
   box-shadow: 0 6px 15px rgba(0,114,255,0.4);
 }
 
-/* هدر و فوتر (استایل جدا) */
+
 .meunobala {
   position: fixed;
   top: 0;

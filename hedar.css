@@ -1,11 +1,11 @@
-/* =================== RESET =================== */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* =================== HEADER =================== */
+
 header {
   position: fixed;
   top: 0;
@@ -38,7 +38,7 @@ header .nav-icons a img:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-/* =================== FOOTER =================== */
+
 footer {
   position: fixed;
   bottom: 10px;
@@ -50,8 +50,8 @@ footer .logo {
   height: auto;
 }
 
-/* =================== MAIN PADDING =================== */
+
 main {
-  padding-top: 90px;   /* فاصله از هدر */
-  padding-bottom: 60px; /* فاصله از فوتر */
+  padding-top: 90px;   
+  padding-bottom: 60px; 
 }
