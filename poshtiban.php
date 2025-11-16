@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>darbarema</title>
+  <title>poshtiban</title>
   <link rel="stylesheet" href="poshtiban.css">
 </head>
 <body>

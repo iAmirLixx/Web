@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>darbarema</title>
+  <title>vip</title>
   <link rel="stylesheet" href="Vip.css">
 </head>
 <body>
