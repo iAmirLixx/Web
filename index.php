@@ -1,35 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include 'header-footer.html'; ?>
+<!doctype html>
+<html lang="fa">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Upolad</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>آپلود فایل</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<?php include 'header-footer.html'; ?>
 
-<main>
-  <div class="main-box">
+<body>
+
+  <main class="کادربزرگ">
+    
     <header>
-      <h1>📷 سایت آپلود عکس</h1>
-      <p>سریع آپلود کن و لینک بگیر!</p>
+      <h1>آپلود فایل</h1>
+      <p>فایل خود را انتخاب کنید و آپلود را انجام دهید.</p>
     </header>
 
-    <div class="upload-box">
-      <div class="middle-box"></div>
-      <div class="icon">☁️</div>
-      <h2>فایل خود را اینجا بکشید و رها کنید</h2>
-      <p>یا روی دکمه زیر کلیک کنید</p>
+    <section class="اپلودکادر">
+      <div class="ایکون">📁</div>
+      <h2>فایل خود را آپلود کنید</h2>
+      <p>فایل را بکشید یا اینجا رها کنید، یا دکمه را بزنید.</p>
 
-      <form action="upload.php" method="POST" enctype="multipart/form-data">
-        <input type="file" name="file" required>
-        <button type="submit">انتخاب فایل</button>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="file" style="display:none;">
+        <label for="file" class="فایل">انتخاب فایل</label>
       </form>
 
-      <div class="preview-box">
-        <p>پیش‌نمایش در اینجا نمایش داده می‌شود</p>
+      <div class="کادرپرایوت">
+        <p>توجه: فایل‌های حساس را در اینجا ارسال نکنید.</p>
       </div>
-    </div>
-  </div>
-</main>
+    </section>
+
+  </main>
+</body>
+</html>
